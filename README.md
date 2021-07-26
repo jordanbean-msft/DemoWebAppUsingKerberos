@@ -1,7 +1,7 @@
 # DemoWebAppUsingKerberos
 
 This is a demo implementation of the [hybrid cloud to on-premises](https://docs.microsoft.com/en-us/azure/active-directory/external-identities/hybrid-cloud-to-on-premises) 
-setup for Azure AD App Proxy.
+setup for Azure AD App Proxy. You will also need to follow the [instructions](https://docs.microsoft.com/en-us/azure/active-directory/external-identities/hybrid-cloud-to-on-premises) for sharing a B2B user into your tenant, then creating a shadow ID for them in your local AD domain. You will then need to configure Kerberos Constrained Delegation support as defined in this [link](https://docs.microsoft.com/en-us/azure/active-directory/app-proxy/application-proxy-configure-single-sign-on-with-kcd). 
 
 ## Architecture
 
@@ -64,3 +64,4 @@ In general, follow the instructions for [setting up Azure AD App Proxy](https://
 - https://docs.microsoft.com/en-us/azure/active-directory/app-proxy/application-proxy-configure-single-sign-on-with-kcd
 - https://docs.microsoft.com/en-us/azure/active-directory/app-proxy/application-proxy-add-on-premises-application
 - https://docs.microsoft.com/en-us/azure/active-directory/external-identities/hybrid-cloud-to-on-premises
+- https://docs.microsoft.com/en-us/azure/active-directory/app-proxy/application-proxy-back-end-kerberos-constrained-delegation-how-to
